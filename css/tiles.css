@@ -1,0 +1,170 @@
+/* <<<===== Tiles ====>>> */
+/* 
+Add <div class="tiles tn"> around items
+*/
+
+
+
+section .tiles.w .tile .icon{
+    position:relative;
+	display:block; 
+	margin:-5px	auto 0;
+	z-index:2;
+}
+section .tiles.w .tile .title{
+    position:absolute;
+	display:block;
+	width:100%;
+	margin-left:-10px;
+	bottom:0;
+	background-color:#eee;
+	background-color:rgba(240,240,240,0.9);
+	z-index:3;
+}
+section .tiles.w .tile .title > * {margin:10px}
+
+section .tile .image{z-index:1;}
+section .tile .image .revealIcon{display:none;}
+section .tile .image {
+    height:100%;
+    width:auto;
+	border-radius:4px;
+}
+
+.tile .icon + a{margin:7px 0px 0px 0px;}
+.tile .icon + h3 {margin:7px 0 0;}
+.tile .icon + h4 {margin:7px 0 0;} 
+
+
+@media all and (min-width:590px){
+	section .tiles.w .tile{
+		float:left;
+		overflow:hidden;
+	}
+	section .tiles.w .tile .item{ margin:0; }
+}
+
+/* Large Tiles */
+section .tiles {position:relative; display:block;}
+section .tiles.t2 .tile{ min-width:240px;}
+section .tiles.t2 .tile .item{ height:340px; overflow:hidden;}
+section .tiles.t2 .tile .image{margin:10px auto; max-height:300px;}
+section .tiles.t2 .tile .icon + h3 {margin:11px 0 0;}
+
+
+/* Medium Tiles */
+section .tiles.t3 .tile{ min-width:240px;}
+section .tiles.t3 .tile .item{ height:200px; overflow:hidden;}
+section .tiles.t3 .tile .image{ margin:10px auto; max-height:160px;}
+
+
+
+/* Small Tiles */
+section .tiles.t4 .tile{ min-width:120px;}
+section .tiles.t4 .tile .item{ height:140px; overflow:hidden;}
+section .tiles.t4 .tile .image{margin:10px auto; max-height:100px;}
+
+
+@media all and (max-width:400px){
+    section .tiles.t4 .tile .item{height:200px;}
+	section .tiles.t4 .tile .image {max-height:160px;}
+	section .tiles .tile {margin:20px 0px; }
+}
+
+@media all and (min-width:400px) and (max-width:589px){
+	/* Small Tiles (2 columns) */
+	section .tiles.w.t4{
+	    width: 102%;
+	    margin:14px -1% -3px;
+	}
+	section .tiles.w.t4 .tile{ 
+		float:left;
+		overflow:hidden;
+	    width:48%;
+		margin:1%;
+	}
+	section .tiles.w.t4 .tile .item{ margin:0; height:140px;}
+}
+@media all and (max-width:589px){
+
+	/* Large Tiles (1 column) */
+	section .tiles.w.t2{
+	    margin:20px 0px -18px;
+	}
+	section .tiles.t2 .tile { margin:20px 0px; }
+	/*section .tiles.t2 .item { max-height:20px; }*/
+	section .tiles.t2 .tile .image{ margin:10px auto; max-height:160px;}
+	
+	/* Medium Tiles (1 column) */
+	section .tiles.t3 .tile { margin:20px 0px; }
+}
+
+
+@media all and (min-width:590px) and (max-width:905px){
+
+	/* Large Tiles (1 columns) */
+	section .tiles.w.t2{
+		width: 102%;
+		margin:13px -1% -5px;
+	}
+	section .tiles.t2 .tile{ min-width:280px; width:98%; margin:1%; }
+	
+	/* Medium Tiles (2 columns) */
+	section .tiles.w.t3{
+	    width: 102%;
+	    margin:13px -1% -6px;
+	}
+	section .tiles.t3 .tile{ width:48%; margin:1%; }
+	
+    /* Small Tiles (3 columns) */
+	section .tiles.w.t4{
+	    width: 104%;
+	    margin:10px -1.5% -9px;
+	}
+	section .tiles.t4 .tile{ width:30%; margin:1.5%; }
+}
+
+@media all and (min-width:906px){
+	/* Large Tiles (2 columns) */
+	section .tiles.w.t2{
+		width: 102%;
+		margin:12px -1% -7px;
+	}
+	section .tiles.t2 .tile{ min-width:320px; width:48%; margin:1%; }
+}
+
+
+@media all and (min-width:906px) and (max-width:1279px){
+	/* Medium Tiles (3 columns) */
+	section .tiles.w.t3{
+	    width: 104%;
+	    margin:5px -1.5% -13px;
+	}
+	section .tiles.t3 .tile{ width:30%; margin:1.5%; }
+	
+	/* Small Tiles (4 columns) */
+	section .tiles.w.t4{
+	    width: 102%;
+	    margin:13px -1% -6px;
+	}
+	section .tiles.t4 .tile{ width:23%; margin:1%; }
+}
+
+@media all and (min-width:1280px){
+	/* Medium Tiles (4 columns) */
+	section .tiles.w.t3{
+	    width: 102%;
+	    margin:10px -1% -10px;
+	}
+	section .tiles.t3 .tile{width:23%; margin:1%; }
+
+	/* Small Tiles (5 columns) */
+	section .tiles.w.t4{
+	    width: 102%;
+	    margin:10px -1% -8px;
+	}
+	section .tiles.t4 .tile{ width:18%; margin:1%; }
+}
+
+
+

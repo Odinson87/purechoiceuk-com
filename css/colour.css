@@ -1,0 +1,290 @@
+body{
+	background-color:#8BC5EA;
+}
+body.landing{background-color:#000;}
+
+.page{
+    background-color:#eee;
+    /*background-image: url(../img/svg/page-branches.svg);
+    background-repeat: no-repeat;*/
+}
+
+.landing_logo{
+    display:block;
+    width:100%; 
+    max-width:1280px; 
+   /*background:url(../img/ant_logo_720_2.jpg) no-repeat center;*/
+    text-align:center;
+}
+.landing_page{margin:100px auto; width:100%; height:100%; background-color:#000;}
+.landing_page a{
+    display:block;
+    text-align:center;
+    font-size:2em; 
+    font-weight:bold; 
+    color:#63a049;
+}
+.landing_page a:hover{color:#88c464;}
+
+.hBar{
+    background: #8BC5EA;
+    color:#fff;
+ }
+.sideBar{background-color:#000;}
+.sideBar.merge{background-color:transparent;}
+
+
+/*.banner{background-color:#fff;}*/
+.banner.bg_img{
+    background:#fff url(../img/logo_280_98.jpg) no-repeat center;
+	min-height:100px;
+}
+
+
+.banner .banner_tagline{
+	color:#fff;
+	background-color:#333;
+	background-color:rgba(0,0,0,0.8);
+}
+
+nav.main{
+    background: #8BC5EA;
+}
+
+nav.main a, nav.bar a{
+	color:#eee;
+	text-decoration:none;
+    border:solid 1px transparent;
+}
+
+nav.main a:hover, nav.bar a:hover{
+    color:#fff;
+    border-color:#aaa;
+	border-radius:2px;
+}
+nav.bar.v a:hover{background-color:#000;}
+.footerfill{background-color:#8BC5EA;}
+
+.contents_wrap{
+	background-color:#eee;
+	border-radius:7px;
+	box-shadow:0px 2px 5px rgba(0,0,0,0.5);
+}
+
+
+nav.contents a{
+	border-radius:2px;
+	color:#000077;
+}
+
+nav.contents a:hover{background-color:#ccc;}
+
+section.border{
+    background-color:#fff;
+}
+section.border1{
+    border:solid 1px #ddd; 
+	border-radius:7px;
+	background-color:#fff
+}
+
+
+.loadingTxt{color:#c0c0c0;}
+
+p.note,p.date{
+	color:#888;
+}	
+
+.image .revealIcon{
+	background-color:#8BC5EA;
+	color:#eee;
+	border-radius:2px;
+}
+.revealIcon:hover{color:#fff;}
+
+
+img {
+    border-radius: 4px;
+}
+
+
+figcaption {color:#888;}
+
+.itemsTitle{
+	background-color:#8BC5EA;
+	border:solid 1px #8BC5EA;
+	border-radius:4px;
+	color:#fff;
+}
+.items .item{
+    margin:10px 0px;
+	border:solid 1px #ddd;
+	padding:16px 10px;
+    border-radius:4px;
+	background-color:#fff;
+}
+
+
+.item .icon{background-color:#8BC5EA;}
+.item .icon.blue{background-color:#244482;}
+
+.item a{color:#244482;}
+.item a:hover{text-decoration:underline;}
+.item > a.submit {color:#dddddd;}
+.item > a.submit:hover{color:#fff; text-decoration:none; background-color:#00a700;}
+
+
+/* <<<==== comment items ====>>> */
+
+/* <<<====>>> */
+
+
+/* <<<==== contact items ====>>> */
+
+/* <<<====>>> */
+
+
+
+/* Read more text button*/
+.rmt{
+	background-color:#888;
+	color:#eee;
+	border-radius:2px;
+}
+.rmt:hover{color:#fff;}
+
+
+.btn {
+    color:#ddd;
+}
+.btn:hover{color:#fff;}
+
+
+/* 'read more' (i) icon button */
+.rm.btn, .desc.btn{
+	background-color:#888;
+    border-radius:24px;
+}
+.rm.btn:hover, .desc.btn:hover{color:#fff;}
+
+.xBtn{
+	background-color:#333;
+	border-radius:16px;
+}
+
+
+/* back to top */
+.b2t{
+   background-color:#0304c9;
+   border-radius:3px;
+   color:#eee;
+   text-decoration:none;
+}
+.b2t:hover{color:#fff;}
+
+.btn.txt{
+	background-color:#0304c9;
+	border:solid 1px #0304c9;
+	border-radius:6px;
+	text-decoration:none;
+}
+
+/* medium button */
+.btn.medium{
+	background-color:#8BC5EA;
+	border:solid 1px #8BC5EA;
+	border-radius:6px;
+	text-decoration:none;
+}
+
+/* small button */
+.btn.small{
+	background-color:#8BC5EA;
+	border:solid 1px #8BC5EA;
+	border-radius:4px;
+	text-decoration:none;
+}
+
+.btn.submit{
+	background-color:#009900;
+	/*border:solid 1px transparent;*/
+	border-radius:4px;
+	text-decoration:none;
+}
+
+
+label{
+	color:#333;
+}
+
+
+/* scroll bars */
+
+/*::-webkit-scrollbar-track-piece:start {
+    Select the top half (or left half) or scrollbar track individually 
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    Select the thumb when the browser window isn't in focus 
+}
+
+::-webkit-scrollbar-button:horizontal:decrement:hover {
+    Select the down or left scroll button when it's being hovered by the mouse 
+}*/
+/*
+::-webkit-scrollbar {
+    width: 7px;
+	padding: 2px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+	background-color:#555;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    background-color:#999;	
+}
+*/
+
+/* Responsive */
+
+@media all and (max-width:420px){
+    .landing_page a{font-size:1em;}
+    .page{background-size:220%;}
+}
+
+@media all and (min-width:421px){
+    .page{background-size:130%;}
+}
+
+@media all and (min-width:421px) and (max-width:699px){
+    .landing_page a{font-size:1.5em;}
+}
+
+@media all and (min-width:700px){
+
+    .banner.bg_img{
+        background:#fff url(../img/logo_700_246.jpg) no-repeat center;
+        min-height:250px;
+    }
+}
+
+@media all and (max-width:700px){
+}
+@media all and (min-width:701px){
+}
+@media all and (min-width:1024px){
+    .page{background-size:100%;}
+    .banner.bg_img{
+        background:#fff url(../img/logo_1000_352.jpg) no-repeat center;
+        min-height:360px;
+    }
+}
+@media all and (max-width:1024px){
+
+}
+
